@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <SiteHeader />
-      <main className="pt-[62px]">
+      <main className="pt-[62px] flex-1">
         <Hero />
       </main>
     </>

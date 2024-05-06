@@ -17,6 +17,9 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
+      colors: {
+        primary: "hsl(var(--primary))",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
